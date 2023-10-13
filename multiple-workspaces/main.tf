@@ -1,8 +1,8 @@
 terraform {
   backend "remote" {
-    hostname = "app.terraform.io"
-    organization = "terraform_AyoTemi"
-   
+    hostname     = "app.terraform.io"
+    organization = "terraform_Skudan"  # Update the organization name here
+
     workspaces {
       prefix = "customers-"
     }
