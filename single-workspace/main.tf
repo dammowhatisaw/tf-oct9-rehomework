@@ -1,6 +1,6 @@
 terraform {
   cloud {
-    organization = "terraform_AyoTemi"
+    organization = "terraform_Skudan"
 
     workspaces {
       name = "single-workspace"
